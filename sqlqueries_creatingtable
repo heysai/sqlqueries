@@ -1,0 +1,28 @@
+to create table with one primary key
+========================================================
+               create database;
+create table table1(
+    emp_id INT primary key,
+    emp_name varchar(50) not null,
+    emp_lastname varchar(50) not null);
+
+===========================================================
+      creating table with two primary keys
+
+create table table1(
+    emp_id INT not null,
+    emp_name varchar(50) not null,
+    emp_lastname varchar(50) not null),
+    constraint con1 primary key (emp_name,emp_lastname) );
+=====================================================================
+    add primary key after creating table
+
+ALTER TABLE  table1
+ADD constraint con1   primary key (emp_id);
+=============================================================
+      drop column
+ALTER table Table4
+DROP column emp_city;
+====================================================================
+Drop table table1;
+
