@@ -25,4 +25,11 @@ ALTER table Table4
 DROP column emp_city;
 ====================================================================
 Drop table table1;
+=====================================================
+    inserting values
+insert into table1 (emp_id,emp_name,emp_lastname)  values (1,"guru","guru1");
+
+insert into table1 values (1,"guru","guru1");
+
+SELECT * from table1 where emp_id>1;
 
